@@ -41,16 +41,16 @@ program-rekap-nilai/
 └── .gitkeep
 Keterangan:
 
-main.py: program utama yang mengatur jalannya aplikasi.
-analisis.py: fungsi perhitungan statistik dan pengelompokan ketuntasan.
-data_io.py: fungsi membaca data dan menyimpan hasil rekap.
-utilitas.py: fungsi validasi nilai, format tampilan, dan status ketuntasan.
-data/nilai_contoh.txt: file masukan berisi NIM dan nilai siswa.
-data/hasil_rekap.txt: file keluaran hasil rekap jika penyimpanan diarahkan ke lokasi tersebut.
-hasil/.gitkeep: penanda agar folder hasil yang kosong tetap dapat disimpan Git.
-proposal.md: dokumen proposal proyek.
-test_case.md: skenario pengujian program.
-.gitignore: daftar file atau folder yang tidak perlu dilacak Git.
+- main.py: program utama yang mengatur jalannya aplikasi.
+- analisis.py: fungsi perhitungan statistik dan pengelompokan ketuntasan.
+- data_io.py: fungsi membaca data dan menyimpan hasil rekap.
+- utilitas.py: fungsi validasi nilai, format tampilan, dan status ketuntasan.
+- data/nilai_contoh.txt: file masukan berisi NIM dan nilai siswa.
+- data/hasil_rekap.txt: file keluaran hasil rekap jika penyimpanan diarahkan ke lokasi tersebut.
+- hasil/.gitkeep: penanda agar folder hasil yang kosong tetap dapat disimpan Git.
+- proposal.md: dokumen proposal proyek.
+- test_case.md: skenario pengujian program.
+- .gitignore: daftar file atau folder yang tidak perlu dilacak Git.
 Catatan: File hasil_rekap.txt baru tersedia setelah program berhasil menyimpan hasil rekap. File .gitkeep dapat dihapus jika foldernya sudah berisi file lain.
 
 # 5. Format Data Masukan
@@ -70,17 +70,16 @@ Setiap baris berisi NIM dan nilai yang dipisahkan dengan tanda koma. Baris A004,
 
 # 6. Cara Menjalankan Program
 Persyaratan
-Python 3 telah terpasang.
-Semua file Python berada pada struktur folder yang sesuai.
-File masukan tersedia di lokasi yang digunakan oleh program.
+- Python 3 telah terpasang.
+- Semua file Python berada pada struktur folder yang sesuai.
+- File masukan tersedia di lokasi yang digunakan oleh program.
 Langkah menjalankan
-Buka folder proyek melalui VS Code.
-Buka terminal pada folder utama proyek.
-Jalankan perintah berikut:
-python main.py
-Pada beberapa sistem, gunakan:
-
-python3 main.py
+1. Buka folder proyek melalui VS Code.
+2. Buka terminal pada folder utama proyek.
+3. Jalankan perintah berikut:
+   python main.py
+4. Pada beberapa sistem, gunakan:
+   python3 main.py
 Pastikan modul analisis.py, data_io.py, dan utilitas.py diimpor sesuai dengan fungsi yang digunakan dalam main.py.
 
 # 7. Contoh Hasil yang Diharapkan
