@@ -68,6 +68,7 @@ A007,75
 A008,88
 A009,45
 A010,100
+
 Setiap baris berisi NIM dan nilai yang dipisahkan dengan tanda koma. Baris A004,abc merupakan contoh data tidak valid karena nilai bukan angka.
 
 # 6. Cara Menjalankan Program
