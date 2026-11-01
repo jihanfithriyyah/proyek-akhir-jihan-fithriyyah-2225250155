@@ -1,4 +1,4 @@
-## TEST CASE
+## TEST CASE ##
 # Program Rekap dan Analisis Nilai Matematika Kelas
 # Nama: Jihan Fithriyyah
 # NIM: 2225250155
@@ -14,6 +14,7 @@ Siswa dengan nilai lebih besar atau sama dengan 60 dinyatakan Tuntas.
 Siswa dengan nilai kurang dari 60 dinyatakan Belum Tuntas.
 Baris data yang tidak valid tidak dimasukkan ke dalam perhitungan.
 Jika tidak terdapat data yang valid, program menampilkan pesan bahwa data tidak tersedia.
+
 # 3. Data Pengujian
 Isi file data/nilai_contoh.txt:
 
@@ -51,6 +52,7 @@ TC17	Menghitung jumlah siswa tuntas	Nilai 60, 75, 50	2 siswa tuntas
 TC18	Menghitung jumlah siswa belum tuntas	Nilai 60, 75, 50	1 siswa belum tuntas
 TC19	Menampilkan hasil rekap	Data nilai valid	Ringkasan statistik ditampilkan
 TC20	Menyimpan hasil rekap	Data nilai valid	File hasil rekap dibuat dan berisi ringkasan
+
 # 5. Hasil Perhitungan yang Diharapkan
 Berdasarkan data pengujian pada bagian 3, terdapat sembilan data nilai yang valid.
 
@@ -63,6 +65,7 @@ Nilai terendah	45
 Jumlah siswa tuntas	7 siswa
 Jumlah siswa belum tuntas	2 siswa
 Jumlah data tidak valid	1 data
+
 # 6. Pengujian Fungsi Utilitas
 ID	Fungsi	Masukan	Hasil yang Diharapkan
 UT01	validasi_nilai()	80	True
@@ -73,12 +76,14 @@ UT05	status_ketuntasan()	60	"Tuntas"
 UT06	status_ketuntasan()	45	"Belum Tuntas"
 UT07	format_nilai()	85	"85.00"
 UT08	format_nilai()	"abc"	"Tidak valid"
+
 # 7. Pengujian Perhitungan Analisis
 ID	Fungsi	Masukan	Hasil yang Diharapkan
 AN01	analisis_nilai()	Nilai 80, 70, 90	Rata-rata 80
 AN02	analisis_nilai()	Data kosong	Mengembalikan None
 AN03	analisis_nilai()	Nilai 60 dan 50	1 siswa tuntas dan 1 belum tuntas
 AN04	analisis_nilai()	Nilai 100 dan 0	Nilai tertinggi 100 dan terendah 0
+
 # 8. Kriteria Keberhasilan
 Pengujian dinyatakan berhasil apabila:
 
@@ -89,5 +94,6 @@ Perhitungan rata-rata, nilai tertinggi, dan nilai terendah sesuai dengan hasil y
 Status ketuntasan ditentukan menggunakan batas nilai 60.
 Program dapat menangani file yang tidak ditemukan dan data kosong.
 Hasil rekap dapat ditampilkan dan disimpan sesuai fungsi program.
+
 # 9. Kesimpulan
 Test case ini digunakan sebagai pedoman untuk memeriksa ketepatan dan keandalan Program Rekap dan Analisis Nilai Matematika Kelas. Program dinyatakan memenuhi kebutuhan apabila seluruh pengujian berjalan sesuai hasil yang diharapkan. Hasil aktual setiap pengujian perlu dicatat setelah program dijalankan.
