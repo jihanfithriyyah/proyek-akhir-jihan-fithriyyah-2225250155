@@ -23,22 +23,25 @@ Program dapat memeriksa validitas data, menghitung rata-rata nilai, menentukan n
 - Data yang tidak valid dilewati dan tidak dimasukkan ke perhitungan.
 - Program memberikan pesan jika file tidak ditemukan atau tidak terdapat data valid.
 
-# 4. Struktur Folder
-program-rekap-nilai/
-├── data/
-│   ├── nilai_contoh.txt
-│   └── hasil_rekap.txt
-├── hasil/
-│   └── .gitkeep
-├── main.py
-├── analisis.py
-├── data_io.py
-├── utilitas.py
-├── proposal.md
-├── test_case.md
-├── README.md
-├── .gitignore
-└── .gitkeep
+# 4. Struktur Folder Proyek
+
+| Struktur Folder / File | Jenis | Deskripsi / Keterangan |
+| :--- | :--- | :--- |
+| **`program-rekap-nilai/`** | Root Directory | Folder utama proyek |
+| ├── **`data/`** | Directory | Folder penyimpanan data eksternal |
+| │ &nbsp; &nbsp;├── `nilai_contoh.txt` | File | Berisi sampel data nilai siswa (mentah) |
+| │ &nbsp; &nbsp;└── `hasil_rekap.txt` | File | Berisi hasil laporan rekapitulasi |
+| ├── **`hasil/`** | Directory | Folder cadangan untuk hasil luaran |
+| │ &nbsp; &nbsp;└── `.gitkeep` | File | Menjaga folder kosong agar tetap terlacak Git |
+| ├── `main.py` | File Python | Program utama untuk mengontrol alur program |
+| ├── `analisis.py` | File Python | Modul logika perhitungan statistik & validasi |
+| ├── `data_io.py` | File Python | Modul untuk membaca file dan menyimpan laporan |
+| ├── `utilitas.py` | File Python | Modul pendukung untuk pemformatan |
+| ├── `proposal.md` | File Markdown | Dokumen proposal rancangan proyek |
+| ├── `test_case.md` | File Markdown | Dokumen daftar pengujian program |
+| ├── `README.md` | File Markdown | Dokumen informasi & petunjuk penggunaan |
+| ├── `.gitignore` | File Konfigurasi | Mengabaikan file sistem/sampah agar tidak ter-commit |
+| └── `.gitkeep` | File | Penanda pelacakan Git |
 
 Keterangan:
 
