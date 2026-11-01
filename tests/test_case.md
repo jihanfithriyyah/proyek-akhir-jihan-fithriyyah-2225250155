@@ -18,17 +18,18 @@ Pengujian dilakukan untuk memastikan bahwa program rekap dan analisis nilai mate
 # 3. Data Pengujian
 Isi file data/nilai_contoh.txt:
 
-A001,85
-A002,78
-A003,92
-A004,abc
-A005,60
-A006,50
-A007,75
-A008,88
-A009,45
-A010,100
-Keterangan: Data A004 tidak valid karena nilai berisi teks abc.
+NIM    | Nilai | Keterangan / Status
+--------------------------------------------------
+A001   | 85    | Valid
+A002   | 78    | Valid
+A003   | 92    | Valid
+A004   | abc   | Tidak valid (berisi teks)
+A005   | 60    | Valid
+A006   | 50    | Valid
+A007   | 75    | Valid
+A008   | 88    | Valid
+A009   | 45    | Valid
+A010   | 100   | Valid
 
 ## 4. Daftar Test Case
 
