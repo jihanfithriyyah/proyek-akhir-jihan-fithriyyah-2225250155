@@ -7,7 +7,7 @@
 # 1. Tujuan Pengujian
 Pengujian dilakukan untuk memastikan bahwa program rekap dan analisis nilai matematika kelas dapat berjalan dengan benar. Pengujian mencakup pembacaan data dari file, validasi nilai, perhitungan statistik, penentuan status ketuntasan, dan penanganan data yang tidak valid.
 
-#2. Ketentuan Program
+# 2. Ketentuan Program
 Nilai siswa berada pada rentang 0 sampai 100.
 Batas ketuntasan adalah 60.
 Siswa dengan nilai lebih besar atau sama dengan 60 dinyatakan Tuntas.
