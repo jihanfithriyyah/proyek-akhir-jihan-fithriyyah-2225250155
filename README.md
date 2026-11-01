@@ -1,6 +1,6 @@
 ## Program Rekap dan Analisis Nilai Matematika Kelas
-# Nama: Siti Rohmah
-# NIM: 2225250203
+# Nama: Jihan Fithriyyah
+# NIM: 2225250155
 # Kelas: 3A
 
 # 1. Deskripsi Program
