@@ -9,19 +9,19 @@ Program Rekap dan Analisis Nilai Matematika Kelas merupakan aplikasi berbasis Py
 Program dapat memeriksa validitas data, menghitung rata-rata nilai, menentukan nilai tertinggi dan terendah, serta mengelompokkan siswa berdasarkan status ketuntasan.
 
 # 2. Tujuan Program
-Membaca data NIM dan nilai siswa dari file teks.
-Memvalidasi data agar hanya nilai yang sesuai ketentuan yang diproses.
-Menghitung statistik nilai siswa.
-Menentukan status ketuntasan berdasarkan batas nilai minimum.
-Menampilkan dan menyimpan hasil rekap nilai.
+1. Membaca data NIM dan nilai siswa dari file teks.
+2. Memvalidasi data agar hanya nilai yang sesuai ketentuan yang diproses.
+3. Menghitung statistik nilai siswa.
+4. Menentukan status ketuntasan berdasarkan batas nilai minimum.
+5. Menampilkan dan menyimpan hasil rekap nilai.
 
 # 3. Ketentuan Program
-Rentang nilai yang valid adalah 0 sampai 100.
-Batas ketuntasan adalah 60.
-Nilai lebih besar atau sama dengan 60 dinyatakan Tuntas.
-Nilai kurang dari 60 dinyatakan Belum Tuntas.
-Data yang tidak valid dilewati dan tidak dimasukkan ke perhitungan.
-Program memberikan pesan jika file tidak ditemukan atau tidak terdapat data valid.
+- Rentang nilai yang valid adalah 0 sampai 100.
+- Batas ketuntasan adalah 60.
+- Nilai lebih besar atau sama dengan 60 dinyatakan Tuntas.
+- Nilai kurang dari 60 dinyatakan Belum Tuntas.
+- Data yang tidak valid dilewati dan tidak dimasukkan ke perhitungan.
+- Program memberikan pesan jika file tidak ditemukan atau tidak terdapat data valid.
 
 # 4. Struktur Folder
 program-rekap-nilai/
