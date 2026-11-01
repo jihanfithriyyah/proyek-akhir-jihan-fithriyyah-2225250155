@@ -41,7 +41,6 @@ program-rekap-nilai/
 ├── .gitignore
 └── .gitkeep
 
-
 Keterangan:
 
 - main.py: program utama yang mengatur jalannya aplikasi.
@@ -89,16 +88,16 @@ Pastikan modul analisis.py, data_io.py, dan utilitas.py diimpor sesuai dengan fu
 # 7. Contoh Hasil yang Diharapkan
 Berdasarkan data contoh, terdapat sembilan data nilai valid dan satu data tidak valid.
 
-Komponen	Hasil
-Jumlah siswa valid	9
-Total nilai	673
-Rata-rata nilai	74,78
-Nilai tertinggi	100
-Nilai terendah	45
-Siswa tuntas	7
-Siswa belum tuntas	2
-Data tidak valid	1
-Hasil tersebut merupakan hasil yang diharapkan berdasarkan data contoh. Tampilan terminal dapat berbeda bergantung pada implementasi main.py.
+| Komponen | Hasil |
+| :--- | :--- |
+| **Jumlah siswa valid** | 9 |
+| **Total nilai** | 673 |
+| **Rata-rata nilai** | 74,78 |
+| **Nilai tertinggi** | 100 |
+| **Nilai terendah** | 45 |
+| **Siswa tuntas** | 7 |
+| **Siswa belum tuntas** | 2 |
+| **Data tidak valid** | 1 |
 
 # 8. Pengujian Program
 Pengujian dilakukan untuk memastikan setiap fungsi berjalan sesuai ketentuan. Skenario pengujian lengkap terdapat pada file test_case.md.
