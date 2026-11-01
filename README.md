@@ -73,6 +73,7 @@ Persyaratan
 - Python 3 telah terpasang.
 - Semua file Python berada pada struktur folder yang sesuai.
 - File masukan tersedia di lokasi yang digunakan oleh program.
+
 Langkah menjalankan
 1. Buka folder proyek melalui VS Code.
 2. Buka terminal pada folder utama proyek.
@@ -101,20 +102,20 @@ Pengujian dilakukan untuk memastikan setiap fungsi berjalan sesuai ketentuan. Sk
 
 Aspek yang diuji meliputi:
 
-Validasi nilai dalam rentang 0–100.
-Penentuan status tuntas dan belum tuntas.
-Pembacaan data dari file teks.
-Penanganan data kosong dan data tidak valid.
-Perhitungan rata-rata, nilai tertinggi, dan nilai terendah.
-Penanganan file yang tidak ditemukan.
-Penyimpanan hasil rekap ke file keluaran.
+1. Validasi nilai dalam rentang 0–100.
+2. Penentuan status tuntas dan belum tuntas.
+3. Pembacaan data dari file teks.
+4. Penanganan data kosong dan data tidak valid.
+5. Perhitungan rata-rata, nilai tertinggi, dan nilai terendah.
+6. Penanganan file yang tidak ditemukan.
+7. Penyimpanan hasil rekap ke file keluaran.
 Pengujian dinyatakan berhasil apabila hasil aktual sesuai dengan hasil yang diharapkan pada setiap test case.
 
 # 9. Analisis Efisiensi
 Misalkan terdapat n data siswa.
 
-Kompleksitas waktu: O(n), karena program perlu membaca dan memproses setiap data siswa. Perhitungan statistik dan pengelompokan juga memerlukan waktu yang sebanding dengan jumlah siswa.
-Kompleksitas ruang: O(n), karena data siswa dan daftar hasil analisis disimpan dalam memori.
+- Kompleksitas waktu: O(n), karena program perlu membaca dan memproses setiap data siswa. Perhitungan statistik dan pengelompokan juga memerlukan waktu yang sebanding dengan jumlah siswa.
+- Kompleksitas ruang: O(n), karena data siswa dan daftar hasil analisis disimpan dalam memori.
 Efisiensi program cukup baik untuk mengolah data nilai kelas dengan ukuran kecil hingga menengah.
 
 # 10. Kesimpulan
