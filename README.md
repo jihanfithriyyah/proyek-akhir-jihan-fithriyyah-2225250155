@@ -25,6 +25,7 @@ Program dapat memeriksa validitas data, menghitung rata-rata nilai, menentukan n
 
 # 4. Struktur Folder Proyek
 
+```text
 program-rekap-nilai/
 ├── data/
 │   ├── nilai_contoh.txt
